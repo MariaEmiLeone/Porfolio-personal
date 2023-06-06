@@ -1,0 +1,173 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Estilos de la sección de inicio */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #1abc9c;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Estilos de la sección "Sobre Mí" */
+  #sobre-mi {
+    background-color: #e8f6f3;
+    padding: 80px 0;
+  }
+  
+  #sobre-mi h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #sobre-mi p {
+    font-size: 16px;
+  }
+  
+  /* Estilos de la sección "Proyectos Destacados" */
+  #proyectos {
+    background-color: #d1f2eb;
+    padding: 80px 0;
+  }
+  
+  #proyectos h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .project a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Estilos de la sección "Contacto" */
+  #contacto {
+    background-color: #d1f2eb;
+    padding: 80px 0;
+  }
+  
+  #contacto h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #contacto p {
+    font-size: 16px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #16a085;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
